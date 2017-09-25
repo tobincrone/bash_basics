@@ -13,4 +13,3 @@ echo 'Your name was stored in $name'
 echo "Enter a filename:"
 read filename
 echo "" > "$filename"
-echo "File: $filename was created"
