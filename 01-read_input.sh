@@ -12,4 +12,5 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 echo "Enter a filename:"
 read filename
+echo "" > "$filename"
 echo "File: $filename was created"
